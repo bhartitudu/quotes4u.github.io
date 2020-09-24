@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>When I tell you I love you, I don't say it out of habit. I say it to remind you that you're the best thing that ever happened to me.</p>
+
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>When I gaze deep into your mind, I am met with the beauty of a thousand diamonds. As I let that love and beauty flood over my body, I knew that there was nothing that I would ever trade our relationship for. </p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>Thinking of you keeps me awake. Dreaming of you keeps me asleep. Being with you keeps me alive.</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>My mind thinks of you the second I fall asleep and as soon as I wake up each morning.</p>
+
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>My heart is perfect because you are inside.</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>I'm much more me when I'm with you.</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>You know you're in love when you can't fall asleep because reality is finally better than your dreams.</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>Life without love is like a tree without blossoms or fruit.</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="love card1.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="love card3.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<html>
+<head>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p> We must be willing to let go of the life we planned so as to have the life that is waiting for us.</br></br>-Joseph Campbell
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p> Happiness is not by chance, but by choice.</br></br>-Jim Rohn
+
+ </p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>If I cannot do great things, I can do small things in a great way.</br></br>-Martin Luther King, Jr.
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>My mission in life is not merely to survive, but to thrive.</br></br>-Maya Angelou
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>You are enough just as you are.</br></br>-Meghan Markle
+</p>
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>The bad news is time flies. The good news is you're the pilot.</br></br>-Michael Altshuler
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>You make a life out of what you have, not what you're missing.</br></br>-Kate Morton, The Forgotten Garden
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>There are years that ask questions and years that answer.</br></br>-Zora Neale Hurston, Their Eyes Were Watching God
+</p>
+
+</div>
+</div>
+
+
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="positive1.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="positive3.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p> The way to get started is to quit talking and begin doing.</br></br> 
+       -Walt Disney
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>He conquers who endures.</br></br> 
+        -Persius
+
+ </p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>Things do not happen. Things are made to happen.</br></br> 
+   -JohnF.Kennedy
+
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p> A goal is a dream with a deadline.</br></br> 
+   -Napoleon Hill
+
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.</br></br>       
+         -Thomas A. Edison
+
+</p>
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p> Your worth consists in what you are and not in what you have.</br></br> 
+     -Thomas A. Edison
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.</br></br>
+     -Roy T. Bennett
+
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>It's only after you've stepped outside your comfort zone that you begin to change, grow, and transform.</br></br>
+        -Roy T. Bennett
+
+</p>
+
+</div>
+</div>
+
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="motivational1.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="motivational3.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>Smiling is the best way to face every problem, to crush every fear and to hide every pain.</p>
+</div>
+</div>
+    
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Smile big. Laugh often. Never take this life for granted.</p>
+</div>
+</div>
+
+    <div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>A smile is a curve that sets everything straight.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>How do you start? Smile, then encourage yourself that it will all be all right in the end. If it’s not yet all right, then it's not yet the end.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Never underestimate the importance of having a person in your life who can always make you smile.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Worry less, smile more. Don't regret, just learn and grow.</p>
+</div>
+</div>
+    
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Making one person smile can change the world. Maybe not the whole world, but their world.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Your smile brightens the lives of all who see it. To someone who has seen a dozen people frown, scowl or turn their faces away, your smile is like the sun breaking through the clouds.</p>
+</div>
+</div>
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="smile card5.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="quotes1.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>A day without a friend is like a pot without a single drop of honey left inside."</p>
+
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>Each friend represents a world in us, a world possibly not born until they arrive, and it is only by this meeting that a new world is born </p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>There are three things that grow more precious with age; old wood to burn, old books to read, and old friends to enjoy."</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>Nothing makes the earth seem so spacious as to have friends at a distance; they make the latitudes and longitudes."</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>"Never leave a friend behind. Friends are all we have to get us through this life and they are the only things from this world that we could hope to see in the next." -
+</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>There is nothing better than a friend, unless it is a friend with chocolate</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>Oh, you're the best friends anybody ever had. And it's funny, but I feel as if I'd known you all the time, but I couldn't have, could I?</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow</p>
+
+
+
+
+
+
+</div>
+</div>
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="friendship card2.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="friendship card4.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+
+</body>
+</html>

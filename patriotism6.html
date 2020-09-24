@@ -1,0 +1,227 @@
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>The patriot blood of my father was warm in my veins.
+
+<br><br>Clara Barton
+</p>
+
+
+
+
+
+
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>If we love our country, we should also love our countrymen.
+
+<br><br>Ronald Reagan
+
+ </p>
+ </div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>I think patriotism is like charity -- it begins at home.
+<br><br>Henry James
+
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>A man's feet should be planted in his country, but his eyes should survey the world.
+<br><br>George Santayana
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>Toleration and liberty are the foundations of a great republic.
+<br><br>Frank Lloyd Wright
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>Our most valuable and most instructive materials in the history of man are treasured up in India.
+<br><br>Mark Twain
+
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>A thoughtful mind, when it sees a nation's flag, sees not the flag, but the nation itself.
+<br><br>Henry Ward Beecher
+</p>
+
+</div>
+</div>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+
+<p>A politician will do anything to keep his job - even become a patriot.
+<br><br>William Randolph Hearst
+</p>
+
+</div>
+</div>
+
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="patriotism5.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="quotes1.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+
+</body>
+</html>

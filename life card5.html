@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>It's amazing how quickly your life changes when your ATTITUDE about life changes.</p>
+</div>
+</div>
+    
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Your PAST has no power over your PRESENT or your FUTURE.</p>
+</div>
+</div>
+
+    <div class="box">
+<div class="glass"></div>
+<div class="content">
+<p> Everything will be okay in the end. If it's not okay, it's not the end...</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>I Will love the light for it shows me the way, yet i will endure the darkness, because it shows me the stars.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Let your hopes, not your hurts shape your future. </p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p> It Will never matter what others thing of you. It will ALWAYS matter what YOU think of you. </p>
+</div>
+</div>
+    
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p> If you have nothing in life but good friends – you are RICH.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>The wrong people will always teach you the right life lessons.</p>
+</div>
+</div>
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="life card4.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="life card6.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+
+</body>
+</html>

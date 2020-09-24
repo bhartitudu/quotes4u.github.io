@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>We shall never know all the good that a simple smile can do</p>
+
+</div>
+</div>
+    
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+    <p>When you smile, you are certainly transmitting a special signal to those who are in receipt and to others who observe your smile. This was a signal that I used quite often in various work that I did over the years and have even tested the theory that a smile is a more welcoming sign for people to approach than if you do not smile</p>
+
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Graduation is a time to nod at the past and smile at the future. And we'd better smile at it because it's quite a bit bigger than us. </p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>I'll smile for today. I won't cry over yesterday's mistakes and I won't fret over the uncertainty of tomorrow. I'll smile because I've made it this far. Will you smile with me?</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Count your age by friends, count your life by smiles.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Allow yourself to smile just a tiny bit. Like revisiting a memory of happiness. Turn the corners of your mouth turn up a little and feel the muscles of your cheekbones slightly contracting.</p>
+</div>
+</div>
+    
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Every time a man smiles, and much more when he laughs, it adds something to his fragment of life.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p> A good smile is magic pill that can make you feel good in every circumstances of life.</p>
+</div>
+</div>
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="smile card3.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="smile card5.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+    
+
+</body>
+</html>

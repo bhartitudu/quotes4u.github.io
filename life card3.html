@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Responsive Card</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'poppins' sans-serif;
+}
+body{
+display:flex;
+justify-items:center;
+align-items:center;
+min-height:100vh;
+flex-wrap:wrap;
+background:black;
+}
+.box{
+position:relative;
+width:250px;
+height:350px;
+background:#060c21;
+margin:40px;
+display:flex;
+justify-items:center;
+align-items:center;
+top:150px;
+bottom:450px;
+
+}
+.box .glass{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:100%;
+display:block;
+background:rgba(225,225,225,0.1);
+pointer-events:none;
+}
+
+.box:after
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-2;
+filter:blur(40px);
+}
+
+.box:before
+{
+content:'';
+position:absolute;
+top:-2px;
+left:-2px;
+right:-2px;
+bottom:-2px;
+background:#fff;
+z-index:-1;
+}
+.box:nth-child(1):before,
+.box:nth-child(1):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+
+}
+.box:nth-child(2):before,
+.box:nth-child(2):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+
+}
+.box:nth-child(3):before,
+.box:nth-child(3):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(4):before,
+.box:nth-child(4):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(5):before,
+.box:nth-child(5):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(6):before,
+.box:nth-child(6):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box:nth-child(7):before,
+.box:nth-child(7):after{
+background:linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
+.box:nth-child(8):before,
+.box:nth-child(8):after{
+background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+}
+.box .content{
+padding:20px;
+color:#fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+
+<p>Life doesn't require that we be the best, only that we try our best.</p>
+</div>
+</div>
+    
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Unfortunately, we live in a time where you can't make an impact without money. I'd say build wealth and then use that wealth to make an impact. In that way, you will have achieved success.</p>
+</div>
+</div>
+
+    <div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>All life is an experiment. The more experiments you make the better.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>The most important thing is to enjoy your life—to be happy—it's all that matters.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>In every life, we have some trouble, but when you worry you make it double.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Enjoy your life and don't be always search for the answers. Let life flow, and everything is going to be alright.</p>
+</div>
+</div>
+    
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Each day is a new life if you fill it with fun and new adventures.</p>
+</div>
+</div>
+
+<div class="box">
+<div class="glass"></div>
+<div class="content">
+<p>Do not go where the path may lead, go instead where there is no path and leave a trail. – Ralph Waldo Emerson</p>
+</div>
+</div>
+<div class="container-fluid" style="margin-top:20vh;margin-left:38%;margin-bottom:12%;">
+	<p>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="life card2.html" style="color:white;text-decoration:none;">Previous</a></button>
+	<button class="btn1" style="background:linear-gradient(to bottom,#0000 10%,#4d3319 110%);font-size:30px; color:white; padding:10px;"><a href="life card4.html" style="color:white;text-decoration:none;">Next</a></button>
+	</p>
+</div>
+</body>
+</html>
